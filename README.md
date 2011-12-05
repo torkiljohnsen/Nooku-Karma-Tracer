@@ -12,31 +12,31 @@ The core of nkt will be nothing but a collection of json files - a large, coordi
 
 The json file that developers provide will look something like this:
 
-{
-   "dev":{
-      "name":"David Deutsch",
-      "handles":[
-         "daviddeutsch",
-         "skore"
-      ],
-      "affiliation":"valanx",
-      "twitter":"@skore_de"
-   },
-   "projects":[
-      {
-         "name":"Cool Project 1",
-         "description":"Just another cool project",
-         "handle":"cp1",
-         "repository":{
-            "type":"git",
-            "location":"git@github.com:daviddeutsch/cp1.git"
-         }
-      }
-      {
-         ...
-      }
-   ]
-}
+    {
+       "dev":{
+          "name":"David Deutsch",
+          "handles":[
+             "daviddeutsch",
+             "skore"
+          ],
+          "affiliation":"valanx",
+          "twitter":"@skore_de"
+       },
+       "projects":[
+          {
+             "name":"Cool Project 1",
+             "description":"Just another cool project",
+             "handle":"cp1",
+             "repository":{
+                "type":"git",
+                "location":"git@github.com:daviddeutsch/cp1.git"
+             }
+          }
+          {
+             ...
+          }
+       ]
+    }
 
 All of this is subject to change, of course. (And again - keeping this as a public repository means that if I change the syntax, it would mean that >I< would have to maintain your files and you could then pull the updates if you want to push your own changes back.)
 
