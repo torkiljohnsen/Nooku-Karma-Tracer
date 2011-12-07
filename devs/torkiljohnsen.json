@@ -1,12 +1,17 @@
 {
-	"dev":{
-    	"name":"Torkil Sinkaberg Johnsen",
-      	"handles":[
-        	"torkiljohnsen (github)",
-        	"torkiljohnsen (assembla)"
-      	],
-      	"affiliation":"BEDRE reklame (bedre.no)",
-      	"homepage":"torkiljohnsen.com",
-      	"twitter":"@torkilj"
+    "dev":{
+        "name": "Torkil Sinkaberg Johnsen",
+        "handles": {
+            "assembla.com": "torkiljohnsen",
+            "github.com":   "torkiljohnsen"
+        },
+        "affiliations": {
+            "BEDRE reklame": {
+                "role": "Developer",
+                "url":  "bedre.no"
+            }
+        },
+        "homepage": "torkiljohnsen.com",
+        "twitter":  "@torkilj"
    	}
 }
